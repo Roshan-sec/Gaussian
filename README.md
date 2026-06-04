@@ -9,14 +9,18 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 
 ## Algorithm
 Step1 : Import the NumPy module to perform matrix operations easily.
+
 Step 2: Take input from the user:
      ->Number of equations (n)
      ->Coefficients and constants of each equation
        Store them in an augmented matrix using np.array() or np.zeros()
+
 Step 3: Use for loops to perform Forward Elimination to make the matrix upper triangular.
 Check for division by zero.
 Then use another for loop to do Back Substitution and calculate the values of unknowns.
+
 Step 4:Store the final results (solutions) in a list or array (x) and display each variable with 2 decimal places.
+
 Step 5:End the program
 
 ## Program:
